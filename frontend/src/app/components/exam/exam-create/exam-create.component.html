@@ -1,0 +1,26 @@
+<mat-card>
+    <mat-card-title>
+        Agendamento de Exame
+    </mat-card-title>
+    <form>
+        <mat-form-field>
+            <input matInput placeholder="Id do Paciente" 
+                [(ngModel)]="exam.patientId" name="patientId">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Ids dos Procedimentos"
+            [(ngModel)]="exam.proceduresIds" name="proceduresIds">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Data de Coleta"
+            [(ngModel)]="exam.collectionDate" name="collectionDate">
+        </mat-form-field>
+    </form>
+    <button mat-raised-button (click)="createExam()" color="primary">
+        Salvar
+    </button>
+    <button mat-raised-button (click)="cancel()">
+        Cancelar
+    </button>    
+</mat-card>
+{{ selectedValue }}

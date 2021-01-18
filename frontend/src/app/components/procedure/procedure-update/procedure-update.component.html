@@ -1,0 +1,21 @@
+<mat-card>
+    <mat-card-title>
+        Atualizar de Procedimento
+    </mat-card-title>
+    <form>
+        <mat-form-field>
+            <input matInput placeholder="Nome" 
+                [(ngModel)]="procedure.name" name="name">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Prazo de Análise"
+            [(ngModel)]="procedure.deadline" name="deadline">
+        </mat-form-field>
+    </form>
+    <button mat-raised-button (click)="updateProcedure()" color="primary">
+        Salvar
+    </button>
+    <button mat-raised-button (click)="cancel()">
+        Cancelar
+    </button>
+</mat-card>

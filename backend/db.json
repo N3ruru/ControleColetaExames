@@ -1,0 +1,72 @@
+{
+  "patients": [
+    {
+      "id": 1,
+      "name": "Fausto Silva",
+      "cpf": "33399311001",
+      "email": "fausto.silva@g.globo"
+    },
+    {
+      "id": 2,
+      "name": "Jó Soares",
+      "cpf": "78701694049",
+      "email": "jo.soares@g.globo"
+    },
+    {
+      "name": "Fátima Bernardes",
+      "cpf": "27097174099",
+      "email": "fatima.bernardes@g.globo",
+      "id": 3
+    }
+  ],
+  "procedures": [
+    {
+      "id": 1,
+      "name": "Endoscopia",
+      "deadline": "2"
+    },
+    {
+      "id": 2,
+      "name": "Colonoscopia",
+      "deadline": "3"
+    }
+  ],
+  "exams": [
+    {
+      "patientId": "1",
+      "proceduresIds": "1, 2, 3",
+      "collectionDate": "23/01/2021",
+      "id": 1
+    },
+    {
+      "patientId": "1",
+      "proceduresIds": "1, 2, 3",
+      "collectionDate": "23/01/2021",
+      "id": 2
+    },
+    {
+      "patientId": "1",
+      "proceduresIds": "1, 2, 3",
+      "collectionDate": "23/01/2021",
+      "id": 3
+    },
+    {
+      "patientId": "1",
+      "proceduresIds": "1, 2, 3",
+      "collectionDate": "23/01/2021",
+      "id": 4
+    },
+    {
+      "patientId": "1",
+      "proceduresIds": "1 2 3",
+      "collectionDate": "23/01/2021",
+      "id": 5
+    },
+    {
+      "patientId": "1",
+      "proceduresIds": "1, 2, 3",
+      "collectionDate": "23/01/2021",
+      "id": 6
+    }
+  ]
+}
